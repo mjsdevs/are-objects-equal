@@ -1,0 +1,37 @@
+{
+  "scripts": {
+    "start": "npx ts-node src/index.ts",
+    "tsc": "npx tsc",
+    "build": "babel src --out-dir dist --extensions .ts"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.7",
+    "@babel/core": "^7.12.7",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-typescript": "^7.12.7",
+    "typescript": "^4.1.2"
+  },
+  "name": "are-objects-equal",
+  "description": "This module allows you to compare typed object values, such as: objects, arrays and nulls.",
+  "version": "1.0.4",
+  "main": "dist/index.js",
+  "dependencies": {
+    "np": "^7.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjsdevs/object-comparator.git"
+  },
+  "keywords": [
+    "typescript",
+    "compare",
+    "objects",
+    "arrays"
+  ],
+  "author": "kbmelo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mjsdevs/object-comparator/issues"
+  },
+  "homepage": "https://github.com/mjsdevs/object-comparator#readme"
+}
