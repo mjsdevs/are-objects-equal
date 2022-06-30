@@ -15,7 +15,7 @@
   },
   "name": "are-objects-equal",
   "description": "This module allows you to compare typed object values, such as: objects, arrays and nulls.",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "main": "dist/index.js",
   "dependencies": {
     "np": "^7.0.0"
